@@ -20,9 +20,9 @@ const Count = () => {
 
 
   return (
-    <div className='Image w-full h-[556px]'>
-        <div className='flex items-center justify-center'>
-            <p className='mt-20 text-4xl text-gray-200' >Counter Application</p>
+    <div className='Image w-full min-h-screen'>
+        <div className='flex items-center justify-center h-full'>
+            <p className='my-20 text-4xl text-gray-200' >Counter Application</p>
         </div>
         <div className='flex items-center justify-center mt-4'>
             <div className='bg-gray-600 w-[300px] h-[100px] rounded border'>
